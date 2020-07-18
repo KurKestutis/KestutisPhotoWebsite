@@ -33,3 +33,20 @@ header nav li {
   display: inline-block;
   padding: 10px;
 }
+
+/* ---------- a LINKS BTN HOVER & ACTIVE ----- */
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn:hover a {
+  color: white;
+  position: relative;
+}
+
+.btn:active a {
+  color: white;
+  position: relative;
+}
