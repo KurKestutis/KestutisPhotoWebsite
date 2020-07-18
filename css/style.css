@@ -8,8 +8,15 @@ body {
   background-color: #000000;
 }
 
+@font-face {
+  font-family: Raleway;
+  src: url(../fonts/Raleway/Raleway-Regular.ttf);
+}
+
 * {
   color: #ffffff;
+  font-family: releway, Helvetica, sans-serif;
+  font-weight: lighter;
 }
 
 /*----------HEADER------------*/
