@@ -22,7 +22,7 @@ body {
 body {
   width: 80%;
   margin: 0 auto;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 /*----------HEADER------------*/
@@ -46,7 +46,7 @@ header nav li {
   padding: 10px;
 }
 
-/* ---------- a LINKS BTN HOVER & ACTIVE ----- */
+/* ---------- a LINKS BTN HOVER & ACTIVE ---------- */
 
 a {
   color: white;
@@ -63,7 +63,7 @@ a {
   position: relative;
 }
 
-/* ---------- MAIN ----- */
+/* ---------- MAIN ---------- */
 
 main {
   width: 80%;
@@ -71,13 +71,20 @@ main {
   margin-top: 10px;
 }
 
-/* IMG */
+/* ---------- IMG ---------- */
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 900px; */
+  width: 900px;
   width: 95%;
   max-width: 1000px;
+}
+
+/* ---------- SLIDESHOW ---------- */
+
+#slideShow {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

@@ -1,4 +1,4 @@
-// alert('sl_gallery dirba');
+// alert('sl_gallery working');
 
 var images = [
   'img/slideShow/01_sl_Vilniaus_Vartai_Foto_Kestutis_Kurienius.jpg',
@@ -16,3 +16,20 @@ var images = [
   'img/slideShow/13_sl_Foto_Kestutis_Kurienius.jpg',
   'img/slideShow/14_sl_Foto_Kestutis_Kurienius.jpg',
 ];
+
+var num = 0;
+function next() {
+  var slideShowPlace = document.getElementById('slider');
+  num++;
+  if (num >= images.length) {
+    num = 0;
+  }
+  slideShowPlace.src = images[num];
+}
+
+window.onload = function () {
+  setInterval(move, 2500);
+  function move() {
+    next();
+  }
+};
