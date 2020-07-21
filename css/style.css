@@ -29,8 +29,11 @@ body {
 
 #navbar {
   top: 0;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
+  position: fixed;
+  background-color: #000000;
 }
 
 #navbar h2 {
@@ -38,6 +41,8 @@ body {
 }
 
 nav {
+  /* padding-top: 0px; */
+  /* margin: 0 auto; */
   text-align: end;
 }
 
@@ -77,14 +82,22 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 900px;
-  width: 95%;
+  width: 100%;
   max-width: 1000px;
 }
 
 /* ---------- SLIDESHOW ---------- */
 
 #slideShow {
-  padding-top: 50px;
+  padding-top: 155px;
   padding-bottom: 50px;
+}
+
+/* ---------- GALLERIES ---------- */
+.galleries h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 150px;
+  padding-bottom: 20px;
 }
