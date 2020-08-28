@@ -1,0 +1,14 @@
+.gridGalleryPhotos img {
+  width: 250px;
+  margin: 5px;
+}
+
+.gridGalleryPhotos {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.gridGalleryPhotos :only-child {
+  margin: 5px;
+}
