@@ -31,6 +31,15 @@ var imagesEvents = [
   'img/events/4_ren_Foto_Kestutis_Kurienius.jpg',
   'img/events/5_ren_Foto_Kestutis_Kurienius19_DofE_2018-06-21_KK_img_8069.jpg',
   'img/events/6_ren_Foto_Kestutis_Kurienius_28_DofE_2018-06-21_KK_img_8541.jpg',
+  'img/events/7_ren_Foto_Kestutis_Kurienius.jpg',
+  'img/events/8_ren_Foto_Kestutis_Kurienius.jpg',
+  'img/events/9_ren_Foto_Kestutis_Kurienius.jpg',
+  'img/events/10_ren_Foto_Kestutis_Kurienius_050_SAMSUNG-VILNIUS_2017-07-28_IMG_8380_foto_K.Kurienius.jpg',
+  'img/events/11_ren_Foto_Kestutis_Kurienius.jpg',
+  'img/events/12_ren_Foto_Kestutis_Kurienius.jpg',
+  'img/events/13_ren_Foto_Kestutis_Kurienius.jpg',
+  'img/events/14_ren_Foto_Kestutis_Kurienius_194_DofE_Lithuania_2018-10-10_IO5A6170_KK.jpg',
+  'img/events/15_ren_Foto_Kestutis_Kurienius.jpg',
 ];
 
 function galleryNumber(g) {
