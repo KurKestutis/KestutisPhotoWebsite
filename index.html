@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/gridGalleryPhotosStyle.css" />
+    <link rel="stylesheet" href="css/modalStyle.css" />
   </head>
 
   <body>
@@ -35,18 +36,17 @@
     <main>
       <!-- SLIDESHOW -->
       <div class="slideShow" id="slideShow">
-
-        <!-- <img
+        <img
           id="slider"
           src="img/slideShow/01_sl_Vilniaus_Vartai_Foto_Kestutis_Kurienius.jpg"
           alt="image"
-        /> -->
-
-        <!-- <div id="button">
+        />
+        <!-- 
+        <div id="button">
           <button id="prew" onclick="prev()">Prev</button>
           <button id="next" onclick="next()">Next</button>
-        </div>
-      </div> -->
+        </div> -->
+      </div>
 
       <!-- GALLERIES -->
 
@@ -126,22 +126,22 @@
             />
 
             <img
-            src="img/events/13_ren_Foto_Kestutis_Kurienius.jpg"
-            alt="image"
-            onclick="openModal();galleryNumber(1);currentSlide(13)"
-          />
+              src="img/events/13_ren_Foto_Kestutis_Kurienius.jpg"
+              alt="image"
+              onclick="openModal();galleryNumber(1);currentSlide(13)"
+            />
 
-          <img
-            src="img/events/14_ren_Foto_Kestutis_Kurienius_194_DofE_Lithuania_2018-10-10_IO5A6170_KK.jpg"
-            alt="image"
-            onclick="openModal();galleryNumber(1);currentSlide(14)"
-          />
+            <img
+              src="img/events/14_ren_Foto_Kestutis_Kurienius_194_DofE_Lithuania_2018-10-10_IO5A6170_KK.jpg"
+              alt="image"
+              onclick="openModal();galleryNumber(1);currentSlide(14)"
+            />
 
-          <img
-            src="img/events/15_ren_Foto_Kestutis_Kurienius.jpg"
-            alt="image"
-            onclick="openModal();galleryNumber(1);currentSlide(15)"
-          />
+            <img
+              src="img/events/15_ren_Foto_Kestutis_Kurienius.jpg"
+              alt="image"
+              onclick="openModal();galleryNumber(1);currentSlide(15)"
+            />
           </div>
         </div>
 
@@ -161,6 +161,21 @@
           />
         </div>
       </section>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <!-- MODAL SLIDESHOW GALLERY-->
+          <div class="modalSlideShowGallery">
+            <button class="prev" onclick="prevModalPhoto()">&#10094;</button>
+            <img id="modalSlider" src="#" width="900" alt="image" />
+            <button class="next" onclick="nextModalPhoto()">&#10095;</button>
+          </div>
+        </div>
+      </div>
 
       <!-- ABOUT -->
 
@@ -207,5 +222,6 @@
       >
     </footer>
     <script src="js/slideShow.js"></script>
+    <script src="js/openModal.js"></script>
   </body>
 </html>
