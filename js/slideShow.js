@@ -17,19 +17,19 @@ var slideShowImages = [
   'img/slideShow/14_sl_Foto_Kestutis_Kurienius.jpg',
 ];
 
-var num = 0;
-function next() {
+var numOfSlideShowImages = 0;
+function nextSlideShowPhoto() {
   var slideShowPlace = document.getElementById('slider');
-  num++;
-  if (num >= slideShowImages.length) {
-    num = 0;
+  numOfSlideShowImages++;
+  if (numOfSlideShowImages >= slideShowImages.length) {
+    numOfSlideShowImages = 0;
   }
-  slideShowPlace.src = slideShowImages[num];
+  slideShowPlace.src = slideShowImages[numOfSlideShowImages];
 }
 
 window.onload = function () {
   setInterval(move, 2500);
   function move() {
-    next();
+    nextSlideShowPhoto();
   }
 };
