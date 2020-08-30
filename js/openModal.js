@@ -42,7 +42,7 @@ var imagesEvents = [
   'img/events/15_ren_Foto_Kestutis_Kurienius.jpg',
 ];
 
-var imagesconferences = [
+var imagesConferences = [
   'img/conferences/1_konf_Foto_Kestutis_Kurienius.jpg',
   'img/conferences/2_konf_Foto_Kestutis_Kurienius_03_DofE_2018-06-21_KK_img_7264.jpg',
   'img/conferences/3_konf_Foto_Kestutis_Kurienius_IMG_1092.1.jpg',
@@ -63,11 +63,28 @@ var imagesconferences = [
   'img/conferences/19_konf_14_sl_Foto_Kestutis_Kurienius.jpg',
 ];
 
+var imagesInteriors = [
+  'img/interiors/1_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/2_int_Vilniaus_Vartai_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/3_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/4_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/5_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/6_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/7_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/8_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/9_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/10_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/11_int_Foto_Kestutis_Kurienius.jpg',
+  'img/interiors/12_int_Foto_Kestutis_Kurienius.jpg',
+];
+
 function galleryNumber(g) {
   if (g == 1) {
     images = imagesEvents;
   } else if (g == 2) {
-    images = imagesconferences;
+    images = imagesConferences;
+  } else if (g == 3) {
+    images = imagesInteriors;
   }
 }
 
