@@ -12,3 +12,56 @@
 .gridGalleryPhotos :only-child {
   margin: 5px;
 }
+
+/*---------- gridGalleryPhotosStyle MEDIA ------------*/
+
+/* Device = Desktops
+   Screen = 1281px to higher resolution desktops */
+
+@media (min-width: 1281px) {
+  .gridGalleryPhotos {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gridGalleryPhotos img {
+    width: 270px;
+    margin: 5px;
+  }
+}
+
+/* Device = Laptops, Desktops
+   Screen = B/w 1025px to 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Default settings */
+}
+
+/* Device = Tablets, Ipads (portrait)
+   Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Default settings */
+}
+
+/* Device = Low Resolution Tablets, Mobiles (Landscape)
+   Screen = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  .gridGalleryPhotos img {
+    width: 170px;
+    margin: 5px;
+  }
+  .gridGalleryPhotos {
+  }
+}
+
+/* Device = Most of the Smartphones Mobiles (Portrait)
+   Screen = B/w 320px to 479px */
+@media (min-width: 0px) and (max-width: 480px) {
+  .gridGalleryPhotos img {
+    width: 100px;
+    margin: 2px;
+  }
+  .gridGalleryPhotos {
+  }
+}
