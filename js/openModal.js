@@ -89,28 +89,24 @@ function galleryNumber(g) {
 }
 
 var numSlide = 0;
-
+var modalPhotoPlace = document.getElementById('modalSlider');
 function currentSlide(n) {
-  var slideShowPlace = document.getElementById('modalSlider');
-
-  slideShowPlace.src = images[n - 1];
+  modalPhotoPlace.src = images[n - 1];
   numSlide = n - 1;
 }
 
 function nextModalPhoto() {
-  var slideShowPlace = document.getElementById('modalSlider');
   numSlide++;
   if (numSlide >= images.length) {
     numSlide = 0;
   }
-  slideShowPlace.src = images[numSlide];
+  modalPhotoPlace.src = images[numSlide];
 }
 
 function prevModalPhoto() {
-  var slideShowPlace = document.getElementById('modalSlider');
   numSlide--;
   if (numSlide < 0) {
     numSlide = images.length - 1;
   }
-  slideShowPlace.src = images[numSlide];
+  modalPhotoPlace.src = images[numSlide];
 }
