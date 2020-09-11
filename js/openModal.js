@@ -26,6 +26,7 @@ var images;
 
 var imagesEvents = [
   'img/events/1_ren_Foto_Kestutis_Kurienius.jpg',
+  'img/events/16_ren_Foto_Kestutis_Kurienius_KK_mg_7374.jpg',
   'img/events/2_ren_Foto_Kestutis_Kurienius.jpg',
   'img/events/3_ren_Foto_Kestutis_Kurienius.jpg',
   'img/events/4_ren_Foto_Kestutis_Kurienius.jpg',
@@ -54,13 +55,11 @@ var imagesConferences = [
   'img/conferences/9_konf_Foto_Kestutis_Kurienius_324_LPK_LT-UA__2019-11-27_MG_6338.jpg',
   'img/conferences/10_konf_Foto_Kestutis_Kurienius_310_LPK_LT-UA__2019-11-27_MG_6376.jpg',
   'img/conferences/11_konf_Foto_Kestutis_Kurienius_311_LPK_LT-UA__2019-11-27_MG_6377.jpg',
-  'img/conferences/12_konf_Foto_Kestutis_Kurienius.jpg',
   'img/conferences/13_konf_Foto_Kestutis_Kurienius.jpg',
   'img/conferences/15_konf_Foto_Kestutis_Kurienius_269_LPK_LT-UA__2019-11-27_MG_6141.jpg',
   'img/conferences/16_konf_Foto_Kestutis_Kurienius_0044 SORAINEN Summer days 2017 IMG_1204.jpg',
   'img/conferences/17_konf_Foto_Kestutis_Kurienius_0059 SORAINEN Summer days 2017 IMG_1380.jpg',
   'img/conferences/18_konf_Foto_Kestutis_Kurienius_006_Luxembourg_Delegation_In_Lithuania-2017_IMG_7333_KK.jpg',
-  'img/conferences/19_konf_14_sl_Foto_Kestutis_Kurienius.jpg',
 ];
 
 var imagesInteriors = [
