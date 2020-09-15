@@ -126,6 +126,22 @@ footer {
 
 /*---------- MEDIA ------------*/
 
+@media (min-width: 10px) and (max-width: 465px) {
+  body {
+    font-size: 0.8em;
+  }
+
+  header nav li {
+    padding: 5px;
+  }
+}
+
+@media (min-width: 466px) and (max-width: 900px) {
+  body {
+    font-size: 0.9em;
+  }
+}
+
 @media (max-width: 900px) {
   nav {
     text-align: start;
