@@ -21,6 +21,14 @@ body {
   margin: 0 auto;
 }
 
+::selection  {
+  background: #ff3454;
+}
+
+::-moz-selection {
+  background: #ff3454;
+}
+
 /*----------HEADER------------*/
 
 header {
