@@ -1,4 +1,5 @@
 /*----------COMMON SETTINGS------------*/
+
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +14,8 @@
   color: #ffffff;
   font-family: releway, Helvetica, sans-serif;
   font-weight: lighter;
+  --selectionBackgroundColor: #ff3454;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,12 +24,16 @@ body {
   margin: 0 auto;
 }
 
-::selection  {
-  background: #ff3454;
+::selection {
+  background-color: var(--selectionBackgroundColor);
 }
 
 ::-moz-selection {
-  background: #ff3454;
+  background-color: var(--selectionBackgroundColor);
+}
+
+::-webkit-selection {
+  background-color: var(--selectionBackgroundColor);
 }
 
 /*----------HEADER------------*/
